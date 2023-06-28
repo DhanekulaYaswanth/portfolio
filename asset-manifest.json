@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ba0415cd.css",
+    "main.js": "/portfolio/static/js/main.299f1ae5.js",
+    "static/media/skillsdark.jpg": "/portfolio/static/media/skillsdark.c78dee3b3202e6ee4464.jpg",
+    "static/media/sun.png": "/portfolio/static/media/sun.79cea40e9855737161c0.png",
+    "static/media/certificatesdark.jpg": "/portfolio/static/media/certificatesdark.68e13c57f899578579c0.jpg",
+    "static/media/personaldark.jpg": "/portfolio/static/media/personaldark.c122de98a794a50b0624.jpg",
+    "static/media/educationdark.jpg": "/portfolio/static/media/educationdark.51b570911f52bd622e74.jpg",
+    "static/media/Kalam-Bold.ttf": "/portfolio/static/media/Kalam-Bold.c4671477e81c3c51ffc0.ttf",
+    "static/media/Caveat-VariableFont_wght.ttf": "/portfolio/static/media/Caveat-VariableFont_wght.834178e16d110b21c85e.ttf",
+    "static/media/night.jpg": "/portfolio/static/media/night.796b0e6fabf5cbf09131.jpg",
+    "static/media/PatrickHand-Regular.ttf": "/portfolio/static/media/PatrickHand-Regular.9469f391b3853213e2f4.ttf",
+    "static/media/YanoneKaffeesatz-VariableFont_wght.ttf": "/portfolio/static/media/YanoneKaffeesatz-VariableFont_wght.c775e7c1cf08152a3d99.ttf",
+    "static/media/Dosis-VariableFont_wght.ttf": "/portfolio/static/media/Dosis-VariableFont_wght.1af19a28a29fcb2321da.ttf",
+    "static/media/moon.png": "/portfolio/static/media/moon.265f46ca7abba4d0bc09.png",
+    "static/media/personal.jpg": "/portfolio/static/media/personal.692f5ca42816c0764520.jpg",
+    "static/media/LeetCode.png": "/portfolio/static/media/LeetCode.c78fc082f2b4c496259f.png",
+    "static/media/experience.jpg": "/portfolio/static/media/experience.73f487b8eb8760ee56b3.jpg",
+    "static/media/CodeChef.png": "/portfolio/static/media/CodeChef.f97258fe866cbf24e855.png",
+    "static/media/HackerRank_logo.png": "/portfolio/static/media/HackerRank_logo.c5bede0098e3bf3a222e.png",
+    "static/media/dark_about.jpg": "/portfolio/static/media/dark_about.3c1e569816eefd35faca.jpg",
+    "static/media/dark_intro.avif": "/portfolio/static/media/dark_intro.ab480b5d9c1866f71d3a.avif",
+    "index.html": "/portfolio/index.html",
+    "main.ba0415cd.css.map": "/portfolio/static/css/main.ba0415cd.css.map",
+    "main.299f1ae5.js.map": "/portfolio/static/js/main.299f1ae5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba0415cd.css",
+    "static/js/main.299f1ae5.js"
+  ]
+}
