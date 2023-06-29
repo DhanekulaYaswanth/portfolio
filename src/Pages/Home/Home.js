@@ -50,7 +50,7 @@ function Home(props){
 
     return(
         <div className="homecontainer">
-            <div className="bgimage" style={{backgroundImage:theme==='dark'?'url(../../images/theme/light_intro.webp)':''}}></div>
+            <div className="bgimage" style={{backgroundImage:theme==='dark'?'url(../../public/images/theme/light_intro.webp)':''}}></div>
             <header style={{width:"auto", marginLeft:"5%"}} className="bg-text">
                     <h1 className="intro">Hi, I'm <span className="name"><Link to="https://www.linkedin.com/in/dhanekula-yaswanth/" target="_blank">Dhanekula Yaswanth</Link></span></h1>
                     <i className="namedescription">{text}<span/></i>
