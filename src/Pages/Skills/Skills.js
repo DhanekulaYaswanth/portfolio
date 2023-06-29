@@ -11,10 +11,10 @@ function Skills(props){
 
     useEffect(() => {
         const initialShuffledprog = shuffle([
-            ['../../../images/images/languages/C.png','clang','C'],
-            ['../../../images/images/languages/CPP.png','cpp','C++'],
-            ['../../../images/images/languages/python.png','python','Python'],
-            ['../../../images/images/languages/JAVA.png','java','Java']
+            ['../../../public/images/images/languages/C.png','clang','C'],
+            ['../../../public/images/images/languages/CPP.png','cpp','C++'],
+            ['../../../public/images/images/languages/python.png','python','Python'],
+            ['../../../public/images/images/languages/JAVA.png','java','Java']
         ]);
         setprog(initialShuffledprog);
     }, []);
@@ -22,12 +22,12 @@ function Skills(props){
 
     useEffect(() => {
         const initialShuffledwebdev = shuffle([
-            ['../../../images/images/languages/HTML.png','html','HTML'],
-            ['../../../images/images/languages/JS.png','javascript','JavaScript'],
-            ['../../../images/images/languages/NODE.png','node','Node'],
-            ['../../../images/images/languages/React.png','react','React'],
-            ['../../../images/images/languages/CSS.png','css','CSS'],
-            ['../../../images/images/languages/mongo.png','mongo','MongoDB']
+            ['../../../public/images/images/languages/HTML.png','html','HTML'],
+            ['../../../public/images/images/languages/JS.png','javascript','JavaScript'],
+            ['../../../public/images/images/languages/NODE.png','node','Node'],
+            ['../../../public/images/images/languages/React.png','react','React'],
+            ['../../../public/images/images/languages/CSS.png','css','CSS'],
+            ['../../../public/images/images/languages/mongo.png','mongo','MongoDB']
         ]);
         setwebdev(initialShuffledwebdev);
     }, []);
@@ -47,10 +47,10 @@ function Skills(props){
     shuffle(prog)
 
     return(
-        <div className="skillContainer" style={{backgroundImage:theme==="dark"?"url(../../../images/theme/skillslight.jpg)":''}}>
+        <div className="skillContainer" style={{backgroundImage:theme==="dark"?"url(../../../public/images/theme/skillslight.jpg)":''}}>
                 <h1>Skills I Posses</h1>
            <header className="programmingblock">
-                <img src="../../../images/images/pngimg/programming.png" alt="Sorry!"/>
+                <img src="../../../public/images/images/pngimg/programming.png" alt="Sorry!"/>
                 <div className="innerblock">
                     <h1>Programming Languages</h1>
                     <ul>
@@ -81,7 +81,7 @@ function Skills(props){
            </header>
            <hr/>
            <header className="webblock">
-                <img src="../../../images/images/pngimg/FrontEnd.png" alt="Sorry!"/>
+                <img src="../../../public/images/images/pngimg/FrontEnd.png" alt="Sorry!"/>
                 <div className="innerblock">
                     <h1>Web Development</h1>
                     <ul>

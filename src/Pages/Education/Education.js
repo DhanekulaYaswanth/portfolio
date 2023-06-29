@@ -12,7 +12,7 @@ function Education(props){
     }
 
     return(
-        <div className="EduContainer"  style={{backgroundImage:theme==="dark"?'url(../../../images/theme/educationlight.jpg)':""}}>
+        <div className="EduContainer"  style={{backgroundImage:theme==="dark"?'url(../../../public/images/theme/educationlight.jpg)':""}}>
             <h1 className={!Education?'Educationheading':'Experienceheading'}>{Education?'Education':'Experience'}</h1>
             <div style={{height:"max-content"}}>
                 <div className="blockChanger" >
@@ -69,7 +69,7 @@ function Education(props){
                                 </div>
                                 <div className="flip-box-back1">
                                     <Link to="https://drive.google.com/file/d/1Y_-L9prGTssr9etMLpSNEqNc2tJmxbxO/view?usp=sharing">
-                                        <img src='../../../images/certifications/RPA.jpg' alt="RPA" className="interncertificate"></img>
+                                        <img src='../../../public/images/certifications/RPA.jpg' alt="RPA" className="interncertificate"></img>
                                     </Link>
                                 </div>
                                 <div className="flip-box-back2">
@@ -95,7 +95,7 @@ function Education(props){
                                 </div>
                                 <div className="flip-box-back1">
                                     <Link to='https://drive.google.com/file/d/1CQgf7gWNwJTafIeL8p5riIoonBkR9Ht1/view?usp=sharing' target="_blank">
-                                        <img src='../../../images/certifications/AI&ML.jpg' alt="RPA" className="interncertificate"></img>
+                                        <img src='../../../public/images/certifications/AI&ML.jpg' alt="RPA" className="interncertificate"></img>
                                     </Link>
                                 </div>
                                 <div className="flip-box-back2">

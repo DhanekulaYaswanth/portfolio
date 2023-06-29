@@ -215,7 +215,7 @@ function Contact(props){
                 <hr/>
 
                 <header className="contactform">
-                    <img src="../../../images/images/pngimg/contact.png" className="contactimage"></img>
+                    <img src="../../../public/images/images/pngimg/contact.png" className="contactimage"></img>
                     <form className="contactme" onSubmit={sendContactMail} name="contactform" id='contactform'>
                         <input type="text" name="fname" id='fname' value={content[1]} className="inputname" onFocus={handleFocus} onBlur={handleBlur} onChange={handleChange} required style={{color:theme==='dark'?'black':'',borderColor:theme==='dark'?'black':''}}/>
                         <label className={mailfocused[1]?'fname nameup':'fname'}>Enter your Name</label>

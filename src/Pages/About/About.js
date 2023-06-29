@@ -18,11 +18,11 @@ function About(props){
 
     return(
         <div className="AboutContainer">
-            <div className="bgAboutimg" style={{backgroundImage:theme==='dark'?'url(../../images/theme/light_about.jpeg)':''}}></div>
+            <div className="bgAboutimg" style={{backgroundImage:theme==='dark'?'url(../../public/images/theme/light_about.jpeg)':''}}></div>
             <header style={{width:"auto", marginLeft:"5%"}} className="Abouttext">
                 <h1>About</h1>
                 <div className="aboutimage">
-                    <img src="../../../images/theme/image1.jpg"></img>
+                    <img src="../../../public/images/theme/image1.jpg"></img>
                     <p>
                         {typing}<span></span>
                     </p>

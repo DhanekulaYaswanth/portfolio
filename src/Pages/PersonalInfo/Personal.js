@@ -6,11 +6,11 @@ import {faCalendar, faLocationDot, faCamera, faPaintBrush} from '@fortawesome/fr
 function Personal(props){
     const {theme}=props;
     return(
-        <div className="PersonalContainer" style={{backgroundImage:theme==='dark'?'url(../../images/theme/personalinfolight.webp)':''}}>
+        <div className="PersonalContainer" style={{backgroundImage:theme==='dark'?'url(../../public/images/theme/personalinfolight.webp)':''}}>
             <h1 className="personallabel" style={{filter:theme==="dark"?'drop-shadow(5px 3px 4px black)':''}}>Personal Details</h1>
             <header className="personalContent">
                 <div>
-                    <img src="../../../images/infopng/Myinfo.png" alt="My Info!"></img>
+                    <img src="../../../public/images/infopng/Myinfo.png" alt="My Info!"></img>
                     <ul>
                         <li className="PersonalCaption">My Info</li>
                         <li>
@@ -22,7 +22,7 @@ function Personal(props){
                     </ul>
                 </div>
                 <div>
-                    <img src="../../../images/infopng/hobby.png" alt="My Info!"></img>
+                    <img src="../../../public/images/infopng/hobby.png" alt="My Info!"></img>
                     <ul>
                         <li className="PersonalCaption">Interests</li>
                         <li>
@@ -34,7 +34,7 @@ function Personal(props){
                     </ul>
                 </div>
                 <div className="language">
-                    <img src="../../../images/infopng/translate.png" alt="My Info!"></img>
+                    <img src="../../../public/images/infopng/translate.png" alt="My Info!"></img>
                     <ul style={{listStyleType:"disc"}}>
                         <li className="PersonalCaption" style={{listStyleType:"none"}}>Languages Known</li>
                             <li className="li-align">
@@ -49,7 +49,7 @@ function Personal(props){
                     </ul>
                 </div>
                 <div>
-                    <img src="../../../images/infopng/hands-up.png" alt="My Info!"></img>
+                    <img src="../../../public/images/infopng/hands-up.png" alt="My Info!"></img>
                     <ul>
                         <li className="PersonalCaption">Volunteer</li>
                             <li style={{listStyleType:"disc", marginLeft:"30px"}}>

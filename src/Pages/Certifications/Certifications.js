@@ -9,16 +9,16 @@ function Certifications(props){
 
     useEffect(() => {
         const initialShuffledCertificates = shuffle([
-            ['../../../images/certifications/python_springboard.jpg','pys','https://drive.google.com/file/d/1SK91Vvqet-IwdrrXUId8RvKHQZFWrOhO/view?usp=sharing'],
-            ['../../../images/certifications/java_hackerrank.jpg','jh','https://www.hackerrank.com/certificates/d4b8c34178ee'],
-            ['../../../images/certifications/java_springboard.jpg','js','https://drive.google.com/file/d/1oldjHjuGIKZkIeZfbihnv7CDWDHePZ7o/view?usp=sharing'],
-            ['../../../images/certifications/psb_hackerrank.jpg','psbh','https://www.hackerrank.com/certificates/2986fb07d1b4'],
-            ['../../../images/certifications/psi_hackerrank.jpg','psih','https://www.hackerrank.com/certificates/b5d1db51bcc3'],
-            ['../../../images/certifications/python_hackerrank.jpg','ph','https://www.hackerrank.com/certificates/2118e28769ac'],
-            ['../../../images/certifications/pythonspringboard.jpg','ps','https://drive.google.com/file/d/1HHry10vMmt6lQ2d81rpTsegryG64VREK/view?usp=sharing'],
-            ['../../../images/certifications/SI.jpg','si','https://smartinterviews.in/certificate/410ade25'],
-            ['../../../images/certifications/java_nptel.jpg','jn','https://drive.google.com/file/d/1Bwth9OtEKV0E1hOG6KEPmlWsYsPnucwV/view?usp=sharing'],
-            ['../../../images/certifications/python_nptel.jpg','pn','https://drive.google.com/file/d/1zkXS5THkMqH-CI6W4-EsBTDXa813g7aq/view?usp=sharing'],
+            ['../../../public/images/certifications/python_springboard.jpg','pys','https://drive.google.com/file/d/1SK91Vvqet-IwdrrXUId8RvKHQZFWrOhO/view?usp=sharing'],
+            ['../../../public/images/certifications/java_hackerrank.jpg','jh','https://www.hackerrank.com/certificates/d4b8c34178ee'],
+            ['../../../public/images/certifications/java_springboard.jpg','js','https://drive.google.com/file/d/1oldjHjuGIKZkIeZfbihnv7CDWDHePZ7o/view?usp=sharing'],
+            ['../../../public/images/certifications/psb_hackerrank.jpg','psbh','https://www.hackerrank.com/certificates/2986fb07d1b4'],
+            ['../../../public/images/certifications/psi_hackerrank.jpg','psih','https://www.hackerrank.com/certificates/b5d1db51bcc3'],
+            ['../../../public/images/certifications/python_hackerrank.jpg','ph','https://www.hackerrank.com/certificates/2118e28769ac'],
+            ['../../../public/images/certifications/pythonspringboard.jpg','ps','https://drive.google.com/file/d/1HHry10vMmt6lQ2d81rpTsegryG64VREK/view?usp=sharing'],
+            ['../../../public/images/certifications/SI.jpg','si','https://smartinterviews.in/certificate/410ade25'],
+            ['../../../public/images/certifications/java_nptel.jpg','jn','https://drive.google.com/file/d/1Bwth9OtEKV0E1hOG6KEPmlWsYsPnucwV/view?usp=sharing'],
+            ['../../../public/images/certifications/python_nptel.jpg','pn','https://drive.google.com/file/d/1zkXS5THkMqH-CI6W4-EsBTDXa813g7aq/view?usp=sharing'],
             
         ]);
         setCertificates(initialShuffledCertificates);
@@ -43,7 +43,7 @@ function Certifications(props){
     }
     
     return(
-        <div className="certificationscontainer" style={{backgroundImage:theme==="dark"?"url(../../../images/theme/certificates_light.jpg)":''}}>
+        <div className="certificationscontainer" style={{backgroundImage:theme==="dark"?"url(../../../public/images/theme/certificates_light.jpg)":''}}>
             <h1 className="certificationsheading">certifications</h1>
             <header className="certificates">
                 
