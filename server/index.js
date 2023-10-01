@@ -2,53 +2,47 @@ const path = require('path')
 const express = require('express')
 const transporter = require('./config')
 const dotenv = require('dotenv')
+const cors = require('cors'); // Import the cors middleware
+
 dotenv.config()
 
 const app = express()
 
-const buildPath = path.join(__dirname,'..','build')
+const buildPath = path.join(__dirname+"/public")
 
 app.use(express.json());
 app.use(express.static(buildPath));
+app.use(cors({
+    origin: 'http://localhost:3000',
+    // You can add more options as needed
+  }));
+
 
 app.post('/sendhiimail',(req,res)=>{
-    try{
-        // console.log(req.body.Email)
-        const mailOpt = {
-            from : req.body.Email,
-            to: 'yaswanth9802@gmail.com',
-            html:`
-                <p>You have a new Message</p>
-                <h3>Contact Details</h3>
-                <ul>
-                    <li>Email: ${req.body.Email}</li>
-                    <li>Message: Hii</li>
-                </ul>
-            `
-        }
+    const mailOptions = {
+        from: process.env.email,
+        to:'yaswanth9802@gmail.com',
+        subject:'From Portfolio',
+        html:`
+            <h1>Message: Hii</h1>
+        `
+    };
 
-        transporter.sendMail(mailOpt,function(err,info){
-            if(err){
-                console.log('try',err)
-                res.status(500).send({
-                    success: false,
-                    message: 'Something went wrong. Try again later'
-                })
-            } else{
-                res.send({
-                    success:true,
-                    message: 'Message Sent Successfully!'
-                })
-            }
-        })
-    }
-    catch(error){
-        console.log('catch',error)
-        res.status(500).send({
-            success: false,
-            message: 'Something went wrong. Try again later'
-        })
-    }
+    transporter.sendMail(mailOptions,function(error,info){
+        if(error){
+            console.log('Error:',error)
+            res.status(500).send({
+                success: false,
+                message: 'Something went wrong. Try again later'
+            })
+        }else{
+            console.log('Email Sent:',info.response)
+            res.send({
+                success:true,
+                message: 'Message Sent Successfully!'
+            })
+        }
+    })
 })
 
 
@@ -66,14 +60,16 @@ app.post('/sendcontactform',(req,res)=>{
         const mailOpt = {
             from : req.body.Email,
             to: 'yaswanth9802@gmail.com',
+            subject:'From Portfolio',
+            text:'sample text',
             html:`
                 <p>You have a new Message</p>
                 <h3>Contact Details</h3>
                 <ul>
-                    <li>Enail: ${req.body.Email}</li>
-                    <li>Name: ${req.body.name}</li>
-                    <li>Subject: ${req.body.subject}</li>
-                    <li>Message:${req.body.message}</li>
+                    <li><b>Email</b>: ${req.body.Email}</li>
+                    <li><b>Name</b>: ${req.body.name}</li>
+                    <li><b>Subject</b>: ${req.body.subject}</li>
+                    <li><b>Message</b>:${req.body.message}</li>
                 </ul>
             `
         }
