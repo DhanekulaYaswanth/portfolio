@@ -30,13 +30,11 @@ app.post('/sendhiimail',(req,res)=>{
 
     transporter.sendMail(mailOptions,function(error,info){
         if(error){
-            console.log('Error:',error)
             res.status(500).send({
                 success: false,
                 message: 'Something went wrong. Try again later'
             })
         }else{
-            console.log('Email Sent:',info.response)
             res.send({
                 success:true,
                 message: 'Message Sent Successfully!'
@@ -90,7 +88,6 @@ app.post('/sendcontactform',(req,res)=>{
         })
     }
     catch(error){
-        console.log('catch',error)
         res.status(500).send({
             success: false,
             message: 'Something went wrong. Try again later'

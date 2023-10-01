@@ -19,6 +19,7 @@ function Certifications(props){
             [require('./certifications/SI.jpg'),'si','https://smartinterviews.in/certificate/410ade25'],
             [require('./certifications/java_nptel.jpg'),'jn','https://drive.google.com/file/d/1Bwth9OtEKV0E1hOG6KEPmlWsYsPnucwV/view?usp=sharing'],
             [require('./certifications/python_nptel.jpg'),'pn','https://drive.google.com/file/d/1zkXS5THkMqH-CI6W4-EsBTDXa813g7aq/view?usp=sharing'],
+            [require('./certifications/EPAM_FET_page-0001.jpg'),'fed','https://drive.google.com/file/d/1Pug4fmB_4rN8PHtfK0wxR_IhE9Dz-VsI/view?usp=drive_link'],
         ]);
         setCertificates(initialShuffledCertificates);
         setCount(initialShuffledCertificates.slice(0,4));

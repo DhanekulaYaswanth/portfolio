@@ -146,7 +146,7 @@
     border-radius: 10px;
 }
 
-.si{
+.si,.fed{
     height: 650px;
 }
 
@@ -259,7 +259,7 @@
         margin-left: 0px;
     }
 
-    .si{
+    .si,.fed{
         height: 500px;
     }
 }
@@ -291,7 +291,7 @@
         margin-left: 0px;
     }
 
-    .si{
+    .si,.fed{
         height: 350px;
     }
 }
