@@ -100,7 +100,7 @@ function Contact(props){
         const mail = document.getElementById('hiimail').value
 
         Axios
-            .post('http://localhost:3030/sendhiimail',{'Email':mail,'message':'Hii'})
+            .post('http://yaswanthserver.vercel.app/sendhiimail',{'Email':mail,'message':'Hii'})
             .then(response=>{
                 setResult(response.data.success);
                 setissent(true)
@@ -127,7 +127,7 @@ function Contact(props){
       const emailid = document.getElementById('emailid').value;
       const subject = document.getElementById('subject').value;
       const message = document.getElementById('message').value;
-      Axios.post('http://localhost:3030/sendcontactform', { 'Email': emailid, 'subject': subject, 'name': name, 'message': message })
+      Axios.post('http://yaswanthserver.vercel.app/sendcontactform', { 'Email': emailid, 'subject': subject, 'name': name, 'message': message })
         .then(response => {
           setResult(response.data.success);
           setissent(true);
