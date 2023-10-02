@@ -19,6 +19,7 @@ app.use(cors({
 
 
 app.post('/sendhiimail',(req,res)=>{
+    console.log(process.env.email);
     const mailOptions = {
         from: process.env.email,
         to:'yaswanth9802@gmail.com',
