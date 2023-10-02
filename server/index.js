@@ -13,7 +13,7 @@ const buildPath = path.join(__dirname+"/public")
 app.use(express.json());
 app.use(express.static(buildPath));
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://dhanekulayaswanth.github.io/portfolio/',
     // You can add more options as needed
   }));
 
