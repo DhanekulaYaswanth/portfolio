@@ -91,6 +91,16 @@ app.post('/sendcontactform',(req,res)=>{
 })
 
 
+app.get('/print',(req,res)=>{
+    res.send('ok');
+    console.log('inside print')
+})
+
+
+app.get('/printpost',(req,res)=>{
+    res.send('post ok');
+    console.log('inside post print')
+})
 
 
 app.listen(3030,()=>{
