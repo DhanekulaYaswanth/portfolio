@@ -13,13 +13,12 @@ const buildPath = path.join(__dirname+"/public")
 app.use(express.json());
 app.use(express.static(buildPath));
 app.use(cors({
-    origin: 'https://dhanekulayaswanth.github.io/portfolio/',
+    origin: 'https://dhanekulayaswanth.github.io',
     // You can add more options as needed
   }));
 
 
 app.post('/sendhiimail',(req,res)=>{
-    console.log(process.env.email);
     const mailOptions = {
         from: process.env.email,
         to:'yaswanth9802@gmail.com',
@@ -50,10 +49,6 @@ app.post('/sendhiimail',(req,res)=>{
 
 app.post('/sendcontactform',(req,res)=>{
     try{
-        // console.log(req.body.Email)
-        // console.log(req.body.name)
-        // console.log(req.body.subject)
-        // console.log(req.body.message)
 
 
         const mailOpt = {
@@ -75,7 +70,6 @@ app.post('/sendcontactform',(req,res)=>{
 
         transporter.sendMail(mailOpt,function(err,info){
             if(err){
-                console.log('try',err)
                 res.status(500).send({
                     success: false,
                     message: 'Something went wrong. Try again later'
