@@ -122,14 +122,12 @@ function Education(props){
                                 <div className="internbody">
                                     <label>AI & ML</label>
                                     <p>
-                                        Gained valuable insights into 
-                                        the practical applications of ML, including data analysis, 
-                                        pattern recognition, and predictive modelling. Developed a 
-                                        strong foundation in machine learning concepts and 
-                                        techniques through hands-on exercises and expert-led 
-                                        sessions. Acquired the skills to apply ML principles to real
-                                        world problems, enhancing my proficiency in data-driven 
-                                        decision-making.
+                                    Completing an internship in AI & ML at AICTE Eduskils 
+                                    was an illuminating experience. The program's comprehensive 
+                                    curriculum and practical approach provided me with invaluable 
+                                    insights into cutting-edge technologies. I am grateful 
+                                    for the opportunity to have honed my abilities in this dynamic field, and 
+                                    I look forward to applying these newfound skills in real-world applications.
                                     </p>
                                     <div>
                                     <Link to='https://drive.google.com/file/d/1CQgf7gWNwJTafIeL8p5riIoonBkR9Ht1/view?usp=sharing' target="_blank" className="internbtn">
