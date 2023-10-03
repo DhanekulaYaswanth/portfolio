@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bed83968.css",
-    "main.js": "/portfolio/static/js/main.44e24797.js",
+    "main.css": "/portfolio/static/css/main.b5cf2eac.css",
+    "main.js": "/portfolio/static/js/main.9bea4244.js",
     "static/media/clock.mp4": "/portfolio/static/media/clock.4e856c908a14989bd5a0.mp4",
     "static/media/to_do_app.mp4": "/portfolio/static/media/to_do_app.0ad4cf1f4adc9792a220.mp4",
     "static/media/certificates_light.jpg": "/portfolio/static/media/certificates_light.0489b8fe5ac9dbbdbf7c.jpg",
@@ -13,8 +13,6 @@
     "static/media/java_hackerrank.jpg": "/portfolio/static/media/java_hackerrank.863330084d4f3711f9f2.jpg",
     "static/media/black-frame-with-copy-space-top-view.jpg": "/portfolio/static/media/black-frame-with-copy-space-top-view.8e6e58dde2891bc66715.jpg",
     "static/media/sun.png": "/portfolio/static/media/sun.79cea40e9855737161c0.png",
-    "static/media/RPA.jpg": "/portfolio/static/media/RPA.c2f839a0bc33e0c4aa75.jpg",
-    "static/media/AI&ML.jpg": "/portfolio/static/media/AI&ML.c9cbb6bdefbdc5766b4d.jpg",
     "static/media/FrontEnd.png": "/portfolio/static/media/FrontEnd.9e478b11f84636a41da7.png",
     "static/media/EPAM_FET_page-0001.jpg": "/portfolio/static/media/EPAM_FET_page-0001.031ceadad3fa8af0a8b8.jpg",
     "static/media/certificatesdark.jpg": "/portfolio/static/media/certificatesdark.68e13c57f899578579c0.jpg",
@@ -31,6 +29,7 @@
     "static/media/SI.jpg": "/portfolio/static/media/SI.81370afadff9ab754f2a.jpg",
     "static/media/night.jpg": "/portfolio/static/media/night.796b0e6fabf5cbf09131.jpg",
     "static/media/React.png": "/portfolio/static/media/React.81ed438b18e24116794d.png",
+    "static/media/aicte.png": "/portfolio/static/media/aicte.6309b5445f22914c9ded.png",
     "static/media/python.png": "/portfolio/static/media/python.dea924d737bb84eb9ce3.png",
     "static/media/contact.png": "/portfolio/static/media/contact.77b0f6ea27f0b4a0048e.png",
     "static/media/python_nptel.jpg": "/portfolio/static/media/python_nptel.e198c1a65ee00eb93a63.jpg",
@@ -41,6 +40,8 @@
     "static/media/moon.png": "/portfolio/static/media/moon.265f46ca7abba4d0bc09.png",
     "static/media/personal.jpg": "/portfolio/static/media/personal.692f5ca42816c0764520.jpg",
     "static/media/image1.jpg": "/portfolio/static/media/image1.c24887816bf7fb60412d.jpg",
+    "static/media/CodeClause.png": "/portfolio/static/media/CodeClause.1c034ddca6f47cb9b966.png",
+    "static/media/amazon.png": "/portfolio/static/media/amazon.dbeab6c96e03d725e0d0.png",
     "static/media/personalInfolight.webp": "/portfolio/static/media/personalInfolight.52124c8b71b377516cd8.webp",
     "static/media/hobby.png": "/portfolio/static/media/hobby.dd419b47b03ce6ecde20.png",
     "static/media/CPP.png": "/portfolio/static/media/CPP.053a898d752aef72651e.png",
@@ -62,11 +63,11 @@
     "static/media/dark_intro.avif": "/portfolio/static/media/dark_intro.ab480b5d9c1866f71d3a.avif",
     "static/media/light_intro.webp": "/portfolio/static/media/light_intro.3d03905dc89607e31704.webp",
     "index.html": "/portfolio/index.html",
-    "main.bed83968.css.map": "/portfolio/static/css/main.bed83968.css.map",
-    "main.44e24797.js.map": "/portfolio/static/js/main.44e24797.js.map"
+    "main.b5cf2eac.css.map": "/portfolio/static/css/main.b5cf2eac.css.map",
+    "main.9bea4244.js.map": "/portfolio/static/js/main.9bea4244.js.map"
   },
   "entrypoints": [
-    "static/css/main.bed83968.css",
-    "static/js/main.44e24797.js"
+    "static/css/main.b5cf2eac.css",
+    "static/js/main.9bea4244.js"
   ]
 }
