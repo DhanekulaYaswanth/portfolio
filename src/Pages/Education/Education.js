@@ -13,14 +13,14 @@ function Education(props){
 
     return(
         <div className={theme==="dark"?'Edu_light':"EduContainer"}>
-            <h1 className={!Education?'Educationheading':'Experienceheading'}>{Education?'Education':'Experience'}</h1>
+            <h1 className={!Education?'Educationheading':'Experienceheading'}>{Education?'Education':'Internships'}</h1>
             <div style={{height:"max-content"}}>
                 <div className="blockChanger" >
                     <input type="radio" name="education" id="blockchanger1" onChange={handleRadioChange}/>
                     <input type="radio" name="education" id="blockchanger2" onChange={handleRadioChange}/>
                     <header className="labels">
                         <label htmlFor="blockchanger1">Education</label>
-                        <label htmlFor="blockchanger2" className="label2">Experience</label>
+                        <label htmlFor="blockchanger2" className="label2">Internships</label>
                     </header>
                     <span style={{background:theme==="dark"?"":'linear-gradient(to right,rgba(124, 124, 255, 0.447),rgba(206, 161, 248, 0.589))'}}></span>
                 </div>
@@ -54,53 +54,91 @@ function Education(props){
                         </div>
                     :
                         <div className="experience">
-                            <div className="flip-box">
-                                <div className="flip-box-front" style={{background:theme==="dark"?"white":'#1e1e1e'}}>
-                                    <h1 className="heading interntitle">Robotic Process Animation </h1>
-                                    <h1 className="heading">(RPA)</h1>
-                                    <label className="org">Eduskills</label>
-                                    <p className="description">During my online internship with Eduskills Platform, I had the opportunity to engage 
-                                        in a comprehensive Robotic Process Animation program that provided some basic knowledge in the field. 
-                                        This internship allowed me to develop knowledge
-                                        on utilizing robotic process automation (RPA) tools and techniques to automate repetitive 
-                                        tasks and streamline business processes. Throughout the internship, I gained an understanding 
-                                        of the fundamentals of RPA and its significance in today's digital landscape.
+                            <div className="internship codeclause" style={{backgroundColor:theme==="dark"?'rgba(255, 255, 255, 0.645)':''}}>
+                                <div className="interncover">
+                                    <img alt="sorry!" className="internimg" src={require('./CodeClause.png')}/>
+                                    <label className="interntitle">Web Development Intern</label>
+                                </div>
+                                <div className="internbody">
+                                    <label>Web Development Intern</label>
+                                    <p>
+                                        Certified in web development through CodeClause,
+                                        a comprehensive and reputable online platform. This
+                                        certification signifies my proficiency in designing and
+                                        creating dynamic websites and web applications.
+                                        Through this I gained expertise in front-end and back-
+                                        end technologies, responsive design, user experience
+                                        optimization, and effective coding practices.
                                     </p>
-                                </div>
-                                <div className="flip-box-back1">
-                                    <Link to="https://drive.google.com/file/d/1Y_-L9prGTssr9etMLpSNEqNc2tJmxbxO/view?usp=sharing">
-                                        <img src={require('./RPA.jpg')} alt="RPA" className="interncertificate"></img>
-                                    </Link>
-                                </div>
-                                <div className="flip-box-back2">
-                                    {/* <img src='../../../images/certifications/RPA.jpg' alt="RPA" className="interncertificate"></img> */}
-                                </div>
-                                <div className="flip-box-back3">
+                                    <div>
+                                        <Link to='https://drive.google.com/file/d/1vTN7aEdrFAq_UpFDN-bAqwjyGPEdx7Li/view?usp=sharing' target="_blank" className="internbtn">
+                                            <button >
+                                                Certificate
+                                            </button>
+                                        </Link>
+                                        <Link to='https://drive.google.com/file/d/1FYDElDuXcXTM2X5Bz3oDdYXcvkWSzR4x/view?usp=sharing' target="_blank" className="internbtn">
+                                            <button>
+                                                LOR
+                                            </button>
+                                        </Link>
+                                        
+                                    </div>
+
                                 </div>
                             </div>
-                            <div className="flip-box">
-                                <div className="flip-box-front" style={{background:theme==="dark"?"white":'#1e1e1e'}}>
-                                    <h1 className="heading interntitle">Artificial Intelligence </h1>
-                                    <h1 className="heading">&</h1>
-                                    <h1 className="heading">Machine Learning</h1>
-                                    
-                                    <label className="org">Eduskills</label>
-                                    <p className="description"> This comprehensive online internship provided 
-                                        me with a solid foundation in Artificial Intelligence (AI) and Machine Learning (ML) 
-                                        techniques, allowing me to explore the vast potential of these cutting-edge technologies.
-                                        Throughout the internship, I delved into various AI and ML concepts, algorithms, and tools, 
-                                        gaining practical experience in developing intelligent systems and leveraging data-driven 
-                                        approaches to solve complex problems.
+                            <div className="internship amazon" style={{backgroundColor:theme==="dark"?'rgba(255, 255, 255, 0.645)':''}}>
+                                <div className="interncover" >
+                                    <img alt="sorry!" className="internimg" src={require('./amazon.png')}/>
+                                    <label className="interntitle">Amzon ML Summer School Intern</label>
+                                </div>
+                                <div className="internbody">
+                                    <label>Amzon ML Summer School Intern</label>
+                                    <p>
+                                        Gained valuable insights into 
+                                        the practical applications of ML, including data analysis, 
+                                        pattern recognition, and predictive modelling. Developed a 
+                                        strong foundation in machine learning concepts and 
+                                        techniques through hands-on exercises and expert-led 
+                                        sessions. Acquired the skills to apply ML principles to real
+                                        world problems, enhancing my proficiency in data-driven 
+                                        decision-making.
                                     </p>
+                                    <div>
+                                    <Link to='' target="_blank" className="internbtn">
+                                            <button className="interncertificate" disabled title="OnGoing">
+                                                Certificate
+                                            </button>
+                                        </Link>
+                                    </div>
+
                                 </div>
-                                <div className="flip-box-back1">
-                                    <Link to='https://drive.google.com/file/d/1CQgf7gWNwJTafIeL8p5riIoonBkR9Ht1/view?usp=sharing' target="_blank">
-                                        <img src={require('./AI&ML.jpg')} alt="RPA" className="interncertificate"></img>
-                                    </Link>
+                            </div>
+
+                            <div className="internship AIML" style={{backgroundColor:theme==="dark"?'rgba(255, 255, 255, 0.645)':''}}>
+                                <div className="interncover" >
+                                    <img alt="sorry!" className="internimg" src={require('./aicte.png')}/>
+                                    <label className="interntitle">AI&ML</label>
                                 </div>
-                                <div className="flip-box-back2">
-                                </div>
-                                <div className="flip-box-back3">
+                                <div className="internbody">
+                                    <label>AI & ML</label>
+                                    <p>
+                                        Gained valuable insights into 
+                                        the practical applications of ML, including data analysis, 
+                                        pattern recognition, and predictive modelling. Developed a 
+                                        strong foundation in machine learning concepts and 
+                                        techniques through hands-on exercises and expert-led 
+                                        sessions. Acquired the skills to apply ML principles to real
+                                        world problems, enhancing my proficiency in data-driven 
+                                        decision-making.
+                                    </p>
+                                    <div>
+                                    <Link to='https://drive.google.com/file/d/1CQgf7gWNwJTafIeL8p5riIoonBkR9Ht1/view?usp=sharing' target="_blank" className="internbtn">
+                                            <button className="interncertificate">
+                                                Certificate
+                                            </button>
+                                        </Link>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
